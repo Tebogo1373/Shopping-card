@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="card.css">
+
+</head>
+<body>
+    <center>
+    <div class="contain cart pizza">
+        <h2>Pizza Shopping card</h2>
+        <table class="cardTable">
+            <tr>
+                <td class="item">
+                    <h3 class="item">Small Pizza</h3>
+                </td>
+
+                <td>
+                    <button class="pBtn small" id="test" on type="button" name="add">+</button>
+                </td>
+
+                <td>
+                    <h3 class="smallPizzaQty item">0</h3>
+                </td>
+
+                <td>
+                    <button class="mBtn small" on type="button" name="reduce">-</button>
+                </td>
+
+                <td>
+                    <h3 class="item">R<span class="smallPizzaTotal">0.00</span></h3>
+                </td>
+            </tr>
+
+            <tr>
+                <td class="item">
+                    <h3 class="item">Medium Pizza</h3>
+                </td>
+
+                <td>
+                    <button class="pBtn med" id="test" on type="button" name="add">+</button>
+                </td>
+
+                <td>
+                    <h3 class="medPizzaQty item">0</h3>
+                </td>
+
+                <td>
+                    <button class="mBtn med" on type="button" name="reduce">-</button>
+                </td>
+
+                <td>
+                    <h3 class="item">R<span class="medPizzaTotal">0.00</span></h3>
+                </td>
+            </tr>
+
+            <tr>
+                <td class="item">
+                    <h3 class="item">large Pizza</h3>
+                </td>
+
+                <td>
+                    <button class="pBtn large" id="test" on type="button" name="add">+</button>
+                </td>
+
+                <td>
+                    <h3 class="largePizzaQty item">0</h3>
+                </td>
+
+                <td>
+                    <button class="mBtn large" on type="button" name="reduce">-</button>
+                </td>
+
+                <td>
+                    <h3 class="item">R<span class="largePizzaTotal">0.00</span></h3>
+                </td>
+            </tr>
+
+            <tr>
+                <td colspan="4">
+                    <h3 class="item">Total cost</h3>
+                </td>
+
+                <td>
+                    <h3 class="item">R<span class="cartTotal">0.00</span></h3>
+                </td>
+            </tr>
+
+            <tr>
+                <td colspan="5">
+                    <button class="checkOut hidden" on type="button" name="checkOut">Check out</button>
+                </td>
+            </tr>
+
+        </table>
+
+    </div>
+
+</center>
+
+    <div class="pizzas">
+
+        <div class="Small_pizza pizza">
+            <h2>Small Pizza</h2>
+            <img src="pizza3.png" width="100">
+            <h2>R32</h2>
+            <div>
+                This pizza is small but nice, it contain the following flavours BBQ Chicken, Pepperoni, Buffalo, Veggie etc.
+            </div>
+           <!-- button -->
+            <center><button class="buy2" on type="button" name="buy">Buy</button></center>
+        </div>
+    
+        <div class="Medium_pizza pizza">
+            <h2>Medium pizza</h2>
+            <img src="pizza3.png" width="125">
+            <h2>R56</h2>
+            <div>
+                This pizza is full of flavours that you will never forget like BBQ Chicken, Pepperoni, Buffalo, Veggie etc.
+            </div>
+            <center><button class="buy1" on type="button" name="buy">Buy</button></center>
+        </div>
+    
+        <div class="Large_pizza pizza ">
+            <h2>Large pizza</h2>
+            <img src="pizza3.png" width="150">
+            <h2>R68</h2>
+            <div>
+                Buy me and enjoy the following flavours that you will never forget like BBQ Chicken, Pepperoni, Buffalo,
+                Veggie etc.
+            </div>
+            <center><button class="buy3" on type="button" name="buy">Buy</button></center>
+        </div>
+    </div>
+   
+    <div class="Contacts_us pizza">
+       <center><h2>Contact details</h2></center> 
+        <center><h3>Contact us at: 0631107118 or tebogo.hati@gmail.com</h3></center>
+    </div>
+
+    <script src="card.js" charset="utf-8"></script>
+
+</body>
+</html>
